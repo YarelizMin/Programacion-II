@@ -20,7 +20,7 @@ public class Main {
         dpto1.agregarEmpleado(e4);
         dpto1.agregarEmpleado(e5);
 
-        Departamento dpto2 = new Departamento("Investigación y Desarrollo", "Tecnología");
+        Departamento dpto2 = new Departamento("Investigación y Desarrollo" , "Tecnología");
         
         System.out.println("Punto a) Instanciación de departamentos y empleados completada.");
 
@@ -70,7 +70,7 @@ public class Main {
             }
         }
 
-        System.out.println("  Se han movido " + contadorMovidos + " empleados.");
+        System.out.println("Se han movido " + contadorMovidos + " empleados.");
 
         System.out.println("--- Estado Final de los Departamentos ---");
         dpto1.mostrarEmpleados();
