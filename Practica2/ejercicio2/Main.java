@@ -24,20 +24,20 @@ public class Main {
         
         System.out.println("Punto a) Instanciación de departamentos y empleados completada.");
 
-        System.out.println("\n==========================================================");
+        System.out.println("==========================================================");
         System.out.println("Punto b) Mostrar empleados (Verificación inicial)");
         System.out.println("==========================================================");
         dpto1.mostrarEmpleados();
         dpto2.mostrarEmpleados();
 
-        System.out.println("\n==========================================================");
+        System.out.println("==========================================================");
         System.out.println("Punto c) Aplicar cambio de salario (+10% en Dpto 1)");
         System.out.println("==========================================================");
         dpto1.cambioSalario(10.0); // Aumento del 10%
 
         dpto1.mostrarEmpleados();
 
-        System.out.println("\n==========================================================");
+        System.out.println("==========================================================");
         System.out.println("Punto d) Verificar si empleados de Dpto 1 pertenecen a Dpto 2");
         System.out.println("==========================================================");
         
@@ -53,7 +53,7 @@ public class Main {
             System.out.println("  Ningún empleado del Departamento 1 pertenece al Departamento 2.");
         }
 
-        System.out.println("\n==========================================================");
+        System.out.println("==========================================================");
         System.out.println("Punto e) Mover empleados de Dpto 1 a Dpto 2");
         System.out.println("==========================================================");
 
@@ -72,7 +72,7 @@ public class Main {
 
         System.out.println("  Se han movido " + contadorMovidos + " empleados.");
 
-        System.out.println("\n--- Estado Final de los Departamentos ---");
+        System.out.println("--- Estado Final de los Departamentos ---");
         dpto1.mostrarEmpleados();
         dpto2.mostrarEmpleados();
 
