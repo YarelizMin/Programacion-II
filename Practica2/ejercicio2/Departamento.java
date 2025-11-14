@@ -1,8 +1,10 @@
+package Practica2.ejercicio2;
+
 import java.util.ArrayList;
 import java.util.List;
 
 
-public class Departamento{
+public class Departamento {
     private String nombre;
     private String area;
     private List<Empleado> empleados;
