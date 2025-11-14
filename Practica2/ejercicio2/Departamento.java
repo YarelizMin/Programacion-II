@@ -33,7 +33,7 @@ public class Departamento {
         }
     }
     public void cambioSalario(double porcentaje){
-        System.out.println ("Aplicando cambio de salario (" +porcentaje+"%) en "+ nombre+);
+        System.out.println ("Aplicando cambio de salario (" +porcentaje+"%) en "+ nombre +" ");
         for (Empleado emp: empleados){
             double salarioActual = emp.getSueldo();
             double nuevoSalario = salarioActual * (1 +(porcentaje/100.0));
