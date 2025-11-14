@@ -23,7 +23,7 @@ public class Departamento {
         return this.empleados.remove(empleado);
     }
     public void mostrarEmpleados(){
-        System.out.println("  Departamento:" +nombre+"(" +area+") ");
+        System.out.println("Departamento:" +nombre+"(" +area+") ");
         if (empleados.isEmpty()){
             System.out.println("[Sin empleados]");
         } else{
@@ -33,7 +33,7 @@ public class Departamento {
         }
     }
     public void cambioSalario(double porcentaje){
-        System.out.println(" Aplicando cambio de salario (" +porcentaje+"%) en "+ nombre+" ---");
+        System.out.println("Aplicando cambio de salario (" +porcentaje+"%) en "+ nombre+" ---");
         for (Empleado emp: empleados){
             double salarioActual = emp.getSueldo();
             double nuevoSalario = salarioActual * (1 +(porcentaje/100.0));
